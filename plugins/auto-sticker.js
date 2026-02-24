@@ -20,7 +20,7 @@ async (conn, mek, m, { from, body }) => {
 
                     await conn.sendMessage(from, {
                         sticker: stickerBuffer,
-                        packname: 'REDZONE-MD',
+                        packname: '𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃',
                         author: 'AUTO-STICKER'
                     }, { quoted: mek });
                 } else {
