@@ -1,8 +1,8 @@
 {
-  "name": "ADEEL-AI",
+  "name": "𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃",
   "description": "Javascript WhatsApp bot made by MAFIA ADEEL",
-  "logo": "https://files.catbox.moe/qj4dc0.jpg",
-  "keywords": ["ADEEL-AI"],
+  "logo": "https://files.catbox.moe/qyskpc.jpg",
+  "keywords": ["𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "ADEEL-AI"
+      "value": "𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃"
     }, 
       
     "PREFIX": {
@@ -78,27 +78,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ADEEL-AI 🖤*"
+      "value": "*SEEN YOUR STATUS BY 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 🐯*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "*ᗩᗪᗴᗴᒪ-᙭ᗰᗪ*"
+      "value": "*𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰*"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "03174838990"
+      "value": "260769355624"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "ADEEL-AI"
+      "value": "𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃"
 
       }, 
 
@@ -119,7 +119,7 @@
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
 
    "MENTION_REPLY": {
@@ -131,13 +131,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/qj4dc0.jpg"
+      "value": "https://files.catbox.moe/qyskpc.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*📌 ᴘᴏᴡᴇʀ ʙʏ ᴍᴀғɪᴀ ᴀᴅᴇᴇʟ*"
+      "value": "*📌 ᴘᴏᴡᴇʀ ʙʏ 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃*"
     },
 
       "DELETE_LINKS": {
