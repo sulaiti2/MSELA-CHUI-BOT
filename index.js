@@ -125,7 +125,7 @@ const speed = require('performance-now');
 // ==================== CONFIG ====================
 const config = require('./config');
 const prefix = config.PREFIX || '.';
-const ownerNumber = config.OWNER_NUMBER ? config.OWNER_NUMBER.split(',').map(n => n.trim()) : ['923174838990'];
+const ownerNumber = config.OWNER_NUMBER ? config.OWNER_NUMBER.split(',').map(n => n.trim()) : ['260769355624'];
 
 // ==================== COMMAND HANDLER ====================
 let commands = [];
@@ -507,21 +507,21 @@ async function connectToWA() {
                 
                 // Welcome message
                 setTimeout(() => {
-                    let up = `*Hello there FAIZAN-MD⁸⁷³ User! 👋🏻*\n\n` +
+                    let up = `*Hello there 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃⁸⁷³ User! 👋🏻*\n\n` +
                             `> Simple, Straight Forward But Loaded With Features 🎊\n\n` +
                             `- *YOUR PREFIX:* = ${prefix}\n` +
                             `- *Commands:* ${commands.length}\n` +
                             `- *Anti-Delete:* ${config.ANTI_DELETE === 'true' ? '✅' : '❌'}\n\n` +
-                            `> 📌 ᴘᴏᴡᴇʀ ʙʏ ᴍᴀғɪᴀ ᴀᴅᴇᴇʟ`;
+                            `> 📌 ᴘᴏᴡᴇʀ ʙʏ 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃`;
                     
                     conn.sendMessage(conn.user.id, { 
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/15z65y.jpg' }, 
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/qyskpc.jpg' }, 
                         caption: up 
                     }).catch(err => console.error("Welcome message error:", err.message));
                     
                     // Send to owner as well
                     conn.sendMessage(ownerNumber[0] + '@s.whatsapp.net', {
-                        text: `✅ *ASEEL-XMD ACTIVATED*\n\nBot is now online!\nCommands: ${commands.length}\nPrefix: ${prefix}\nAnti-Delete: ${config.ANTI_DELETE === 'true' ? '✅ ACTIVE' : '❌ INACTIVE'}`
+                        text: `✅ *𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 ACTIVATED*\n\nBot is now online!\nCommands: ${commands.length}\nPrefix: ${prefix}\nAnti-Delete: ${config.ANTI_DELETE === 'true' ? '✅ ACTIVE' : '❌ INACTIVE'}`
                     }).catch(() => {});
                 }, 5000);
             }
@@ -599,7 +599,7 @@ async function connectToWA() {
                                              `│✇ *Location:* ${isGroup ? 'Group' : 'Private'}${groupInfo}\n` +
                                              `${mediaInfo}\n` +
                                              `╰───────────────────❏\n\n` +
-                                             `> *ADEEL-XMD ANTI DELETE*`;
+                                             `> *𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 ANTI DELETE*`;
                             
                             await conn.sendMessage(targetJid, {
                                 text: alertText,
@@ -1051,7 +1051,7 @@ app.get("/", (req, res) => {
     res.send(`
         <html>
             <head>
-                <title>ADEEL-XMD</title>
+                <title>𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃</title>
                 <style>
                     body { font-family: Arial; text-align: center; padding: 50px; background: #f0f0f0; }
                     .card { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -1061,7 +1061,7 @@ app.get("/", (req, res) => {
             </head>
             <body>
                 <div class="card">
-                    <h1>🤖 ADEEL-XMD</h1>
+                    <h1>🤖 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃</h1>
                     <p>Status: <span class="status">✅ ONLINE</span></p>
                     <p>Commands: <strong>${commands.length}</strong></p>
                     <p>Anti-Delete: <strong>${config.ANTI_DELETE === 'true' ? '✅ ACTIVE' : '❌ INACTIVE'}</strong></p>
@@ -1132,7 +1132,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 console.log("\n🚀 ==============================");
-console.log("🚀 ADEEL-MD BOT STARTING...");
+console.log("🚀 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 BOT STARTING...");
 console.log("🚀 ==============================\n");
 
 // ==================== EXPORTS FOR PLUGINS ====================
