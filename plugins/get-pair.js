@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for ADEELXMD bot",
+    desc: "Get pairing code for 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 bot",
     category: "download",
-    use: ".pair 923xxxxxxxxx",
+    use: ".pair 260xxxxxxxxx",
     filename: __filename
 }, async (conn, mek, m, { reply, q, senderNumber }) => {
     try {
@@ -18,7 +18,7 @@ cmd({
 
         if (!phone || phone.length < 10 || phone.length > 15) {
             return reply(
-                "❌ Please provide a valid WhatsApp number.\n\nExample:\n.pair 923xxxxxxxxx"
+                "❌ Please provide a valid WhatsApp number.\n\nExample:\n.pair 260xxxxxxxxx"
             );
         }
 
@@ -43,7 +43,7 @@ cmd({
 
         // ✅ success message
         await reply(
-            `*ADEEL XMD PAIRING CODE*\n\n` +
+            `*𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 PAIRING CODE*\n\n` +
             `🔑 Code: *${pairCode}*\n\n` +
             `_Enter this code in WhatsApp to link your device._`
         );
