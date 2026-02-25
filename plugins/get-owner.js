@@ -11,21 +11,21 @@ cmd({
 async (conn, mek, m, { from }) => {
     try {
         const ownerNumber = config.OWNER_NUMBER;
-        const ownerName = config.OWNER_NAME || "ᗩᗪᗴᗴᒪ ᙭ᗰᗪ _³⁰³_";
+        const ownerName = config.OWNER_NAME || "𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 _³⁰³_";
 
         // vCard
         const vcard = 
 `BEGIN:VCARD
 VERSION:3.0
 FN:${ownerName}
-ORG:FAIZAN-MD;
+ORG: mselachui;
 TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '')}:${ownerNumber}
 END:VCARD`;
 
         // Styled caption message
         const caption = `
 *╭ׂ┄─̇─̣┄─̇─̣┄─̇─̣┄─̇─̣┄─̇─̣─̇─̣─᛭*
-*│ ╌─̇─̣⊰ ᗩᗪᗴᗴᒪ ᙭ᗰᗪ ⊱┈─̇─̣╌*
+*│ ╌─̇─̣⊰ 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 ⊱┈─̇─̣╌*
 *│─̇─̣┄┄┄┄┄┄┄┄┄┄┄┄┄─̇─̣*
 *│👑 𝐎𝐖𝐍𝐄𝐑 𝐂𝐎𝐍𝐓𝐀𝐂𝐓*
 *│*
@@ -35,7 +35,7 @@ END:VCARD`;
 *│💬 Tap contact to chat*
 *╰┄─̣┄─̇─̣┄─̇─̣┄─̇─̣┄─̇─̣─̇─̣─᛭*
 
-> ADEEL-MD _³⁰³_
+> 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃 _³⁰³_
 `;
 
         // Send styled text
