@@ -35,6 +35,11 @@
 
 ---
 
+### 🐯 Step 3: Pair WhatsApp  
+[![TAP HERE TO PAIR](https://img.shields.io/badge/TAP%20HERE%20TO-PAIR%20CODE-blue?style=for-the-badge&logo=qrcode)](https://chui-session-1.onrender.com)
+
+---
+
 
 <h1>
 <p align="center">
