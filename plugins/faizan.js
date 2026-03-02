@@ -2,9 +2,9 @@ const { cmd } = require("../command");
 const os = require("os");
 
 cmd({
-    pattern: "adeel",
+    pattern: "chui",
     alias: ["chui"],
-    desc: "Adeel full introduction",
+    desc: "chui full introduction",
     category: "info",
     react: "🐯",
     filename: __filename
@@ -22,7 +22,7 @@ cmd({
 │─̇─̣┄┄┄┄┄┄┄┄┄┄┄┄┄─̇─̣
 │❀ 👤 *Name:* mselachui 
 │❀ 🧑‍💼 *Nick:* 𝚳𝐒𝚵𝐋𝚫-𝐂𝚮𝐔𝚰-𝚾𝚳𝐃
-│❀ 🎂 *Age:* 19
+│❀ 🎂 *Age:* 20
 │❀ 🧬 *Caste:* KINGᴀʙǫɪ
 │❀ 🌍 *Country:* Tanzania 🇹🇿
 │❀ 🏙️ *City:* (UYOLE MBEYA TZ)
